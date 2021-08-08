@@ -1,0 +1,5 @@
+torture_qty = int(input())
+torture = list(map(int, input().split()))
+torture_indexed = list(zip(torture, range(1, torture_qty + 1)))
+torture_indexed.sort()
+print(torture_indexed[0][1])
