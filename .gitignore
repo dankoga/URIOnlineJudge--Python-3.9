@@ -1,5 +1,6 @@
 *
+URI_[0-9]*_NO.py
 SUPPORT.py
 
 !.gitignore
-! *.py
+!*.py
